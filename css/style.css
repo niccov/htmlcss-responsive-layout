@@ -33,6 +33,30 @@ nav{
     margin-top: 5px;
 }
 
+/* display none */
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+
+    display: none;
+}
+
+#menu .items-menu a{
+    text-decoration: none;
+
+    color: white;
+}
+
+#menu .items-menu button{
+    background-color: white;
+
+    border-radius: 25px;
+    padding: 5px 20px;
+}
+/* /display none */
+
 .fa-solid.fa-bars{
     font-size: 25px;
 
@@ -547,6 +571,111 @@ footer a{
 
  /* laptop */
 @media screen and (min-width: 770px){
+
+    .container-nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu{
+        display: flex;
+    }
+
+    #item-hamburger .fa-solid.fa-bars{
+        display: none;
+    }
+
+    .one .container-section{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        width: 80%;
+
+    } 
+
+    .one .col:first-child{
+        width: calc(100% / 3 * 2 - (15px / 3));
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .one .col{
+        width: calc(100% / 3 - (15px / 3 * 2));
+    }
+
+    .two .container-section{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+
+        width: 60%;
+    }
+
+    #lower-box{
+        margin-top: 120px;
+    }
+
+    .three .container-section{
+        width: 75%;
+    }
+
+    .block-section3{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-img3{
+        width: 30%;
+    }
+
+    .paragraph-3{
+        width: 70%;
+    }
+
+    .paragraph-3 div {
+        text-align: left;
+
+        margin-left: 25px;
+    }
+
+    .four #container-block4{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .block-section4{
+        width: calc(100% / 3 - (20px / 3 * 2));
+    }
+
+    .five .container-section{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    #about_us{
+        width: 60%;
+    }
+
+    #container-profile{
+        width: 40%;
+
+        margin-top: 50px;
+    }
+
+    #container-profile #profile{
+        margin: auto
+    }
+
+    .six .container-section{
+        width: 50%;
+
+        margin: auto;
+    }
+
     
 }
  /* /laptop */
