@@ -22,6 +22,7 @@ nav{
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #container-logo{
@@ -31,12 +32,11 @@ nav{
 #container-logo img{
     margin-top: 5px;
 }
-#item-hamburger{
-    width: 15%;
-}
 
-.fa-solid fa-bars{
-    font-size: 50px;
+.fa-solid.fa-bars{
+    font-size: 25px;
+
+    color: white;
 }
 /* /header */
 
@@ -48,10 +48,7 @@ nav{
     width: 100%;
 }
 
-.container-section{
-    border: 1px solid black;
-    
-    height: 95%;
+.container-section{    
 
     /* test */
 
@@ -70,6 +67,9 @@ nav{
     border-radius: 25px;
 
     /* test */
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px ;
 
     width: 100%;
 
@@ -86,37 +86,69 @@ nav{
 .paragraph-1{
     width: 90%;
 
+    margin-top: 20px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.fa-solid fa-file-code{
-    font-size: 30px;
-    color: #0084FD;
+.paragraph-1 h3{
+    font-size: 25px;
+    color: #0084FD;  
+}
+
+.paragraph-1 p{
+    font-size: 18px;
+
+    padding: 10px;
+}
+
+.paragraph-1 button{
+    color: white;
+
+    background-color: #0084FD;
+
+    margin-top: 10px;
+    padding: 15px 80px;
+
+    border-radius: 25px;
 }
 
 .container-img1{
     width: 90%;
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .container-img1-big{
-    max-width: 150px;
+    max-width: 2000px;
 }
 
 .container-img1-big img{
     width: 100%;
     height: 100%;
 }
+
+.container-img1 h3{
+    font-size: 30px;
+    color: #0084FD;
+}
+
+.container-img1 i{
+    font-size: 80px;
+    color: #0084FD;
+}
 /* /section 1 */
 
 /* section 2 */
+.section.two{
+    background-color: #9792E4;
+}
+
 #upper-box{
-    border: 1px solid black;
     /* test */
     height: 50%;
 
@@ -125,11 +157,13 @@ nav{
     align-items: center;
     gap: 10px;
 
+    margin-bottom: 15px;
+
 }
 
 #lower-box{
-    border: 1px solid black;
-    /* test */;
+    border-radius: 30px;
+    background-color: white;
     height: 50%;
 
     display: flex;
@@ -143,24 +177,57 @@ nav{
     /* test */
     height: 50%;
 
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    color: white;
+}
+
+.paragraph-2 h3{
+    text-align: center;
+
+    font-size: 30px;
+}
+
+.paragraph-2 p{
+    text-align: center;
+    font-size: 18px;
 }
 
 .container-img2{
-    width: 100%;
-    /* test */
-    height: 50%;
+    max-width: 200px;
+}
 
-    background-color: red;
+.container-img2 img{
+    width: 100%;
+    height: 100%;
+}
+
+#lower-box .paragraph-2 {
+    color: black;
+}
+
+#circle{
+    padding: 15px;
+    border-radius: 50%;
+
+    margin-bottom: 20px;
+
+    background-color: #9792E4;
 }
 /* /section 2 */
 
 /* section 3 */
 #head-section3{
-    height: 25%;
     border: 1px solid black;
     /* test */
     width: 100%;
+
+    text-align: center;
+
+    padding: 15px;
 
 }
 
@@ -170,18 +237,24 @@ nav{
     /* test */
     width: 100%;
 
+    padding: 20px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .container-img3{
-    height: 40%;
+    max-width: 200px;
+}
 
-    background-color: aqua;
-    /* test */
-    width: 90%;
+.container-img3 img{
+    width: 100%;
+    height: 100%;
 
+    border-radius: 50%;
+
+    
 }
 
 .paragraph-3{
@@ -191,6 +264,10 @@ nav{
     /* test */
     width: 90%;
 
+}
+
+.paragraph-3 div{
+    text-align: center;
 }
 /* /section 3 */
 
@@ -202,7 +279,6 @@ nav{
 #container-block4{
     width: 100%;
     height: 100%;
-    background-color: red;
 
     display: flex;
     flex-direction: column;
@@ -226,10 +302,15 @@ nav{
 }
 
 #profile{
-    width: 100%;
-    height: 30%;
+    max-width: 200px;
     
-    background-color: rgb(0, 255, 64);
+}
+
+#profile img{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
 }
 /* /section 5 */
 
