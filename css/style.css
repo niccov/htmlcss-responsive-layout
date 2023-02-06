@@ -42,15 +42,10 @@ nav{
 
 /* section default*/
 .section{
-    border: 1px solid black;
-    /* test */
-
     width: 100%;
 }
 
 .container-section{    
-
-    /* test */
 
     width: 90%;
 
@@ -62,11 +57,8 @@ nav{
 }
 
 .col{
-    height: calc(100% / 5);
-
     border-radius: 25px;
 
-    /* test */
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px ;
@@ -87,6 +79,7 @@ nav{
     width: 90%;
 
     margin-top: 20px;
+    margin-bottom: 20px;
 
     display: flex;
     flex-direction: column;
@@ -124,9 +117,8 @@ nav{
 }
 
 .container-img1-big{
-    max-width: 2000px;
+    width: 80%;
 }
-
 .container-img1-big img{
     width: 100%;
     height: 100%;
@@ -149,9 +141,6 @@ nav{
 }
 
 #upper-box{
-    /* test */
-    height: 50%;
-
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -170,12 +159,12 @@ nav{
     flex-flow: column;
     align-items: center;
     gap: 10px;
+
+    margin-bottom: 20px;
 }
 
 .paragraph-2{
     width: 100%;
-    /* test */
-    height: 50%;
 
     display: flex;
     flex-direction: column;
@@ -188,17 +177,17 @@ nav{
 .paragraph-2 h3{
     text-align: center;
 
-    font-size: 30px;
+    font-size: 35px;
+
+    margin-top: 20px;
 }
 
 .paragraph-2 p{
-    text-align: center;
     font-size: 18px;
+
+    margin-left: 10px;
 }
 
-.container-img2{
-    max-width: 200px;
-}
 
 .container-img2 img{
     width: 100%;
@@ -221,20 +210,36 @@ nav{
 
 /* section 3 */
 #head-section3{
-    border: 1px solid black;
-    /* test */
     width: 100%;
 
     text-align: center;
 
     padding: 15px;
+}
 
+#head-section3 div{
+    margin: 15px;
+}
+
+#head-section3 h3{
+    margin-top: 25px;
+
+    font-size: 30px;
+
+    color: #9792E4;
+}
+
+#head-section3 p{
+    margin-top: 25px;
+
+    font-size: 18px;
 }
 
 .block-section3{
-    height: 25%;
-    border: 1px solid black;
-    /* test */
+    border-radius: 25px;
+
+    background-color: #9792E4;
+
     width: 100%;
 
     padding: 20px;
@@ -244,9 +249,6 @@ nav{
     align-items: center;
 }
 
-.container-img3{
-    max-width: 200px;
-}
 
 .container-img3 img{
     width: 100%;
@@ -254,56 +256,120 @@ nav{
 
     border-radius: 50%;
 
+    object-fit: cover;
+
     
 }
 
 .paragraph-3{
-    height: 60%;
-    
-    background-color: rgb(136, 0, 255);
-    /* test */
     width: 90%;
 
+    color: white;
+}
+
+.paragraph-3 p{
+    font-size: 18px;
+
+    margin: 25px;
 }
 
 .paragraph-3 div{
     text-align: center;
+
+    font-size: 22px;
 }
 /* /section 3 */
 
 /* section 4 */
+.four{
+    background-color: #9792E4;
+}
+
 .four h3{
-    font-size: 25px;
+    font-size: 35px;
+
+    color: white;
+
+    text-align: center;
+
+    margin-top: 20px;
 }
 
 #container-block4{
     width: 100%;
-    height: 100%;
 
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
+
+    margin-bottom: 30px;
 }
 
 .block-section4{
     width: 100%;
-    height: calc(100% / 6);
 
-    border: 1px solid black;
+    padding: 30px;
+
+    background-color: white;
+
+    border-radius: 25px;
+}
+
+.block-section4 div{
+    font-size: 50px;
+
+    color: #9792E4;
+}
+
+.block-section4 h4{
+    margin-top: 20px;
+
+    font-size: 20px;
+
+    color: #9792E4;
+}
+
+.block-section4 p{
+    margin-top: 20px;
+}
+
+.block-section4 button{
+    margin-top: 30px;
+
+    color: white;
+
+    background-color: #9792E4;
+
+    border-radius: 25px;
+
+    padding: 10px 50px;
 }
 /* /section 4 */
 
 /* section 5 */
 #about_us{
     width: 100%;
-    height: 70%;
-    
-    background-color: blue;
+}
+
+#about_us h3{
+    font-size: 40px;
+    color: #9792E4;
+
+    margin-top: 20px;
+}
+
+#about_us p{
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+#container-profile{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #profile{
-    max-width: 200px;
-    
+    width: 50%;
 }
 
 #profile img{
@@ -312,13 +378,175 @@ nav{
 
     border-radius: 50%;
 }
+
+#sub-profile div{
+    font-size: 30px;
+    color: #9792E4;
+}
+
+#sub-profile button{
+    margin-top: 20px;
+
+    border-radius: 25px;
+    padding: 8px 20px;
+
+    font-size: 16px;
+    color: white;
+
+    background-color: #9792E4;
+}
 /* /section 5 */
+
+/* section6 */
+.six{
+    background-color: #9792E4;
+}
+
+.six div{
+    font-size: 20px;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+
+    color: white;
+}
+
+.six h4{
+    font-size: 30px;
+    color: white;
+}
+
+.six h3{
+    font-size: 50px;
+    color: #FDC15F;
+}
+
+.six p{
+    font-size: 18px;
+}
+
+.six button{
+    margin-top: 20px;
+
+    border-radius: 35px;
+    padding: 20px 40px;
+
+    font-size: 20px;
+    color: #9792E4;
+
+    background-color: white;
+}
+
+.six #copyright{
+    font-size: 16px
+}
+
+.six #copyright span{
+  height: 5px;
+  width: 5px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.six #copyright a{
+    color: white;
+}
+/* /section6 */
 
 /* footer */
 footer{
     width: 100%;
-    height: 200px;
 
     background-color: black;
 }
+
+#container-footer{
+    width: 70%;
+
+    margin: auto;
+}
+footer div{
+    color: white;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    text-align: center;
+}
+
+footer a{
+    color: #9792E4;
+}
 /* /footer */
+
+/* responsive */
+ /* tablet */
+@media screen and (min-width: 577px) and (max-width: 769px){
+    .one .container-section{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    } 
+
+    .one .col:first-child{
+        width: calc(100% / 3 * 2 - (15px / 3));
+    }
+
+    .one .col{
+        width: calc(100% / 3 - (15px / 3 * 2));
+    }
+
+    .block-section3{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-img3{
+        width: 35%;
+    }
+
+    .paragraph-3{
+        width: 65%;
+    }
+
+    #container-block4{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #container-block4 .block-section4{
+        width: calc(100% / 2 - (20px / 2));
+    }
+
+    .five .container-section{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    #about_us{
+        width: 60%;
+    }
+
+    #container-profile{
+        width: 40%;
+    }
+
+    #container-profile #profile{
+        margin: auto
+    }
+}
+ /* /tablet */
+
+ /* laptop */
+@media screen and (min-width: 770px){
+    
+}
+ /* /laptop */
